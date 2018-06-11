@@ -28,6 +28,7 @@ function clearOutput(){
 }
 
 function onGetMedicine(resp) {
+    console.log(resp);
     var response = JSON.parse(resp.result);
     if (response == "Your medicaments was not found.") {
         clearOutput();
