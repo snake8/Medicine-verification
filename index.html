@@ -1,0 +1,66 @@
+
+
+<html>
+  <head>
+    <title>Medicine verification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/nebPay.js"></script>
+  </head>
+  <body style="background: #66bff0;">
+    <div class="wrapper-buttons-menu">
+      <a id="tab-form" href="#">Verify</a>
+      <a id="tab-about" href="#">About us</a>
+    </div>
+    <div class="main-container">
+      <div class="tab tab-form visible">
+        <div class="wrapper-header-tab">
+          <h1>Verify medicine</h1>
+        </div>
+        <div class="verification-form">
+          <form>
+            <div class="wrapper-input">
+              <p>Serial number</p>
+              <input id="serial-number" type="text" name="fname"><br>
+            </div>
+            <button id="verify-serial-number" type="submit" onclick="verifyMedicin()">Verify</button>
+          </form>
+        </div>
+        <div class="result-interface">
+          <p id="name"></p>
+          <p id="manuf"></p>
+          <p id="discr"></p>
+          <p id="price"></p>
+        </div>
+      </div>
+      <div class="tab tab-about">
+        <div class="wrapper-header-tab">
+          <h1>About us</h1>
+        </div>
+        <p>
+          This smart contract works on nebulas test net for now.
+          It varifys medicament using serial number.
+          All our medicament data stored on blockchain, we using serial number for accessing it.                  
+        </p>
+        <p>
+          So for testing this smart contract you need to pass serial number in serial number input.
+          And to make things clear it's only a concept, basicly it means that all our data is not real.
+        </p>
+        <p>
+          For start testing our smart contract you need a wallet file, you get it by adding nebulas wallet <a style="color: #66bff0" href="https://chrome.google.com/webstore/detail/nasextwallet/gehjkhmhclgnkkhpfamakecfgakkfkco">extension</a>.
+        </p>
+        <p>
+          Here is some serial numbers for testing:<br>
+          XGvuqE}@5TA:7W:b<br>
+          td^qu`Le.-_y9GJU<br>
+          -X3n^u)wy3A*#/8x<br>
+          .(&!&rw7n`@3Eqpn<br>
+          qDQb868ah]{h@5zr<br>
+        </p>
+      </div>
+    </div>    
+  </body> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</html>
+  

@@ -1,0 +1,156 @@
+
+.main-container {
+    max-width: 500px;
+    background: white; 
+    margin: 0 auto;
+    padding: 50px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-buttons-menu{
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding: 0px 50px;
+    background: #FFF;
+}
+
+@media (max-width: 420px) {
+    .main-container {
+        max-width: 220px;
+    }
+
+    .wrapper-buttons-menu{
+        max-width: 220px;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 400;
+    font-family: "Lato";
+}
+a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+.wrapper-buttons-menu a{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #8e8d8d;
+    margin-right: 50px;
+}
+
+.tab-about p {
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.tab{
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: calc(100% - 100px);
+    height: calc(100% - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #fff;
+    visibility: hidden; 
+}
+
+.visible{
+    visibility: visible !important;
+}
+
+.wrapper-header-tab{
+
+}
+
+p{
+   font-family: "Lato";
+    font-weight: 400;
+}
+
+.wrapper-header-tab h1{
+    margin-top: 0;
+    font-family: "Lato";
+    font-weight: 400;
+    color: #232323;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 20px;
+    border: 0;
+    border-bottom: 1px solid #66bff0;
+}
+
+input:focus{
+    outline: none;
+}
+
+.wrapper-input{
+
+}
+
+.wrapper-input p{
+    font-size: 12px;
+    color: #8e8d8d;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    background: #66bff0;
+    color: #fff;
+    font-family: "Lato";
+    font-weight: 400;
+    border: none;
+    font-size: 16px;    
+}
+
+
+.result-interface {
+    height: 100px;
+    border: 1px solid #3fde6e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+    visibility: hidden;
+}
+
+.result-interface p {
+    margin: 0;
+    font-family: "Lato";
+    font-weight: 400;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.main-container{
+    height: calc(100% - 200px);
+}
