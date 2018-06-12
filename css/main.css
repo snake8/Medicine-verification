@@ -1,4 +1,9 @@
 
+@font-face {
+ font-family: "Lato";
+ src: url("Lato-Regular.ttf") format("ttf");
+}
+
 .main-container {
     max-width: 500px;
     background: white; 
